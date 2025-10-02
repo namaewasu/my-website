@@ -1,0 +1,128 @@
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin: 40px 0 0 0;
+}
+
+.social-icon {
+  width: 42.5px;
+  height: 42.5px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.social-icon[src*="github"] {
+  width: 35px !important;
+  margin-top: 4px;
+}
+.social-icon[src*="linkedin"] {
+  width: 50px !important;
+  height: 50px !important;
+}  
+.social-icon[src*="instagram"] {
+  width: 42.5px !important;
+  height: 42.5px !important;
+  margin-top: 4px;
+}
+
+.social-icon:hover {
+  transform: scale(1.15);
+}
+.intro-text {
+  text-align: center;
+  font-size: 16px;
+  color: #888;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  max-width: 900px;
+  width: 80vw;
+}
+.navbar {
+  width: 100%;
+  background: #0056b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  height: 56px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navbar-btn {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background 0.2s;
+  font-size: 16px;
+}
+.navbar-btn:hover {
+  background: #0056b3;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.profile-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.profile-img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0px solid #007bff;
+  margin-bottom: 16px;
+  background: #eee;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+.container {
+  width: 100vw;
+  min-height: calc(100vh - 56px);
+  margin: 0;
+  background: #fff;
+  padding: 32px 0;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+h1 {
+  color: #333;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 16px;
+}
