@@ -1,3 +1,39 @@
+.about-row {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-row {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-section {
+  flex: 1 1 320px;
+  max-width: 500px;
+  background: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 32px 24px;
+  margin: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-section h2, .about-section h1 {
+  text-align: left;
+  margin-top: 0;
+}
+.about-section p, .about-section ul {
+  text-align: left;
+  margin-bottom: 18px;
+}
+.about-section ul {
+  padding-left: 18px;
+  list-style: disc;
+}
 .social-links {
   display: flex;
   justify-content: center;
